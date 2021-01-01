@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Busting Android performance myths",
+      "body": "Over the years, several myths have emerged about performance on Android. While some myths can be entertaining or amusing, being sent in the wrong direction when looking to create performant Android apps is no fun. In this blog post, in the spirit of MythBusters, we’re going to test these myths. For our myth-busting, we use real-world examples and tools that you can use. We focus on dominant use patterns: the things that you, as developers, are probably doing in your app. There is an important caveat, remember it’s essential to measure before deciding to use a coding practice for performance reasons. That said, let's bust some myths."
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "Flutter: what is Context",
+      "body": "What is Widget To make sure that we are on the same wave, let’s start with the concept of Widget. You must have heard the phrase: “Everything in Flutter is a widget”. However, this is not quite right.It is more correct to say that widgets are everything that is displayed on the screen. The overall layout of the page, the position and size of the button, the color and size of the text — all this is created using widgets."
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "Understand the types of Launch Modes in an Android Activity",
+      "body": "In this article I will be discussing Android Activity launch modes, why we need launch mode, what are the different types of launch modes available, and how they work. Before we dive into that I would like to introduce some topic we often use in this tutorial. Task and Back Stack. In this context Task means collections of activities in an app, and Back Stack means as the name suggest is a stack which does only two operation push/pop in “last in, last out” fashion. "
+    },
+    {
+      "userId": 1,
+      "id": 4,
+      "title": "Automating Code Reviews",
+      "body": "Building software is a complex task. Some software is built by a single person, but often times there are teams behind software. These teams can range from two people up to hundreds of people. Working with many people in the same code-base brings quite a few challenges. Tools like git help out with working in parallel by enabling us to version our code (i.e. see changes over time) or to easily spot changes suggested by team members. But the more people are working on the same code-base, the more changes are being suggested — and these changes need to be reviewed by someone."
+    },
+    {
+      "userId": 1,
+      "id": 5,
+      "title": "OkHttp or Retrofit for Android?",
+      "body": "Ifyou work on networking in Android, you probably heard of OkHttp and Retrofit. They are not really totally different. In fact, Retrofit is just a higher-level API wrap around OkHttp within. So the questions are What does Retrofit really provide on top of OkHttp? Should we consider using OkHttp directly? There several StackOverflow like this and this talk about them as well. Let me give you more detailed descriptions below."
+    },
+    {
+      "userId": 1,
+      "id": 6,
+      "title": "Animating your keyboard",
+      "body": "New in Android 11 is the ability for apps to create seamless transitions between the on screen keyboard being opened and closed, and it’s all powered by lots of improvements to the WindowInsets APIs in Android 11. Here you are two examples of it in action on Android 11. It has been integrated into the Google Search app, as well as the Messages app:"
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "We recommend Material Design Components",
+      "body": "Your app exists alongside other apps installed on a user’s phone. We therefore recommend that applications follow the Material Design guidelines to ensure that apps operate consistently, that patterns learned in one app can be used in another."
+    },
+    {
+      "userId": 1,
+      "id": 8,
+      "title": "Scoping in Android and Hilt",
+      "body": "Scoping an object A to another object B means that throughout the lifecycle of B, it’ll always have the same instance of A. When it comes to dependency injection (DI), an object A scoped to a container means that the container will always provide the same instance of A until the container is destroyed."
+    }
+  ]
+}
